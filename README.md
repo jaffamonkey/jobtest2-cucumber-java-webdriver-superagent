@@ -12,6 +12,7 @@ Notes:
 #### Setup
 
 ```
+cd tests/api
 npm install
 npm run test:api
 ```
