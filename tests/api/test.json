@@ -1,0 +1,23 @@
+{
+    "status": {
+        "timestamp": "2020-04-21T17:23:10.866Z",
+        "error_code": 0,
+        "error_message": null,
+        "elapsed": 12,
+        "credit_count": 1,
+        "notice": null
+    },
+    "data": {
+        "id": 1,
+        "symbol": "BTC",
+        "name": "Bitcoin",
+        "amount": 50,
+        "last_updated": "2020-04-21T17:22:39.000Z",
+        "quote": {
+            "BOB": {
+                "price": 2370449.830023646,
+                "last_updated": "2020-04-21T17:22:08.000Z"
+            }
+        }
+    }
+}
