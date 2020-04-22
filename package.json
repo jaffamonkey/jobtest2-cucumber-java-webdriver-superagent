@@ -17,7 +17,7 @@
     "superagent": "latest"
   },
   "scripts": {
-    "test:api": "node ./tests/api/api-test.js",
+    "test:api": "node ./tests/api/api-test-superagent-assert.js",
     "lint": "./node_modules/.bin/jshint ./tests/**/**/*.js"
   },
   "jest": {

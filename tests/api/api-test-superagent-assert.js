@@ -9,7 +9,6 @@ superagent
   .set('Accept', 'application/json')
   .set('Accept', 'application/gzip')
   .end((err, res) => {
-    console.log(JSON.stringify(res.body));
     console.log(res.body.data[0].id);
     console.log(res.body.data[1].id);
     console.log(res.body.data[2].id);
@@ -67,6 +66,7 @@ superagent
   .set('Accept', 'application/json')
   .set('Accept', 'application/gzip')
   .end((err, res) => {
+    console.log(JSON.stringify(res.body));
     assert.ifError(err);
     assert.equal(res.status, 200);
     assert.equal(res.body.data['1027'].platform, null);
@@ -74,5 +74,5 @@ superagent
     assert.equal(res.body.data['1027'].tags, 'mineable');
     assert.equal(res.body.data['1027'].symbol, 'ETH');
     assert.equal(res.body.data['1027'].logo, 'https://s2.coinmarketcap.com/static/img/coins/64x64/1027.png');
-    assert.equal(res.body.data['1027'].technical_doc, 'https://github.com/ethereum/wiki/wiki/White-Paper');
+    assert.equal(res.body.data['1027'].urls.technical_doc, 'https://github.com/ethereum/wiki/wiki/White-Paper');
   });
