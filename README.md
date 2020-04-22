@@ -5,7 +5,7 @@ Notes:
 
 > The api tests are not as "daisy-chained" as I wanted. 
 
-> For the UI tests, the Gherkin are too granular, mainly down to Java skills (JavaScript and Python are the languages I have more experience with)
+> For the UI tests, the Gherkin are too granular, mainly down to Java skill level (JavaScript and Python are the languages I have more recent experience with)
 
 ### API tests
 
