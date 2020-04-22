@@ -85,16 +85,6 @@ public class HomePage {
         PageFactory.initElements(driver, this);
     }
 
-    // Click Sign In Button on Home Page
-    public void clickSignInButton() {
-        this.singInButton.click();
-    }
-
-    // Click user to make context menu appear
-    public void clickContextMenu() {
-        userContextMenuLink.click();
-    }
-
     // Click user to make context menu appear
     public void clickHomepageTextLink() {
         driver.get("https://coinmarketcap.com");
