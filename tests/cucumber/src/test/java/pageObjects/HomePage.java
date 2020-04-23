@@ -16,15 +16,6 @@ public class HomePage {
 
     protected WebDriver driver;
 
-    @FindBy(id = "signin_button")
-    private WebElement singInButton;
-
-    @FindBy(xpath = "//*[@id=\"settingsBox\"]/ul/li[3]/a ")
-    private WebElement userContextMenuLink;
-
-    @FindBy(id = "logout_link")
-    private WebElement logOutLink;
-
     @FindBy(css = "svg.fa-star")
     private WebElement watchLink;
 
